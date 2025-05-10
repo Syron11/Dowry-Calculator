@@ -1,0 +1,56 @@
+html {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: linear-gradient(90deg, rgba(244, 168, 200, 1) 0%, rgba(0, 109, 246, 1) 100%);
+    min-height: 100vh;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+.container {
+    background: white;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control:invalid {
+    border-color: #dc3545;
+}
+
+#result {
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+}
+
+.price-high {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.price-medium {
+    color: #007bff;
+}
+
+.price-low {
+    color: #dc3545;
+}
+
+.btn:disabled {
+    cursor: not-allowed;
+    opacity: 0.65;
+}
